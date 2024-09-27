@@ -8,7 +8,7 @@ link="http://suninjuly.github.io/simple_form_find_task.html"
 try:
     browser = webdriver.Chrome()
     browser.get(link)
-    input1 = browser.find_element(By.NAME,"first_name")
+    input1 = browser.find_element(By.NAME,"firstname")
     input1.send_keys("Igor")
     input2 = browser.find_element(By.NAME,"lastname")
     input2.send_keys("Katin")
