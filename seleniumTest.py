@@ -11,7 +11,7 @@ try:
     input1 = browser.find_element(By.NAME,"firstname")
     input1.send_keys("Edvinas")
     input2 = browser.find_element(By.NAME,"lastname")
-    input2.send_keys("Katin")
+    input2.send_keys("Gaidamavicius")
     input3 = browser.find_element(By.CLASS_NAME,"city")
     input3.send_keys("Vilnius")
     input4 = browser.find_element(By.ID,"country")
