@@ -9,7 +9,7 @@ try:
     browser = webdriver.Chrome()
     browser.get(link)
     input1 = browser.find_element(By.NAME,"firstname")
-    input1.send_keys("Igor")
+    input1.send_keys("Edvinas")
     input2 = browser.find_element(By.NAME,"lastname")
     input2.send_keys("Katin")
     input3 = browser.find_element(By.CLASS_NAME,"city")
