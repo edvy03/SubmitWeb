@@ -10,7 +10,7 @@ try:
     browser.get(link)
     input1 = browser.find_element(By.NAME,"first_name")
     input1.send_keys("Igor")
-    input2 = browser.find_element(By.NAME,"last_name")
+    input2 = browser.find_element(By.NAME,"lastname")
     input2.send_keys("Katin")
     input3 = browser.find_element(By.CLASS_NAME,"city")
     input3.send_keys("Vilnius")
